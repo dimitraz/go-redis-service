@@ -1,0 +1,19 @@
+{
+    "object": {
+        "server": {
+            "version": "1.0.0",
+            "port": "9001",
+            "application_base_dir": "/Applications"
+        },
+        "redis": {
+            "host": "localhost",
+            "port": "6379",
+            "name": "desktop",
+            "user": "user",
+            "pwd": "test123"
+        },
+        "log": {
+            "level": "trace"
+        }
+    }
+}
