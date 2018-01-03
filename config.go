@@ -28,7 +28,6 @@ func (cfg Config) Init(fileName string) Config {
 	}
 
 	fmt.Printf("%s \x1b[1;34m [%s] \x1b[0m  : %s \n", start.Format("2006/01/02 03:04:05"), "INFO", "Reading config settings")
-	//fmt.Printf("%s \x1b[1;35m[%s] \x1b[0m : %s \n", start.Format(time.RFC3339), "DEBUG", cfg.f)
 	return cfg
 }
 
